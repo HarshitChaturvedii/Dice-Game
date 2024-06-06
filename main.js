@@ -15,8 +15,8 @@ else if(j>i){
 else{
     head = "<h1>Draw</h1>";
 }
-var img1 = "<img src =" + "'./images/dice" + i + ".png'>" ;
-var img2 = "<img src =" + "'./images/dice" + j + ".png'>" ;
+var img1 = "<img src =" + "'./dice" + i + ".png'>" ;
+var img2 = "<img src =" + "'./dice" + j + ".png'>" ;
 
 document.querySelector(".theImages1").innerHTML = (img1);
 document.querySelector(".theImages2").innerHTML = (img2);
