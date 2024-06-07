@@ -75,3 +75,53 @@ a {
     text-decoration: none;
     color: bisque;
 }
+@media (max-width:759px){
+    .theProject{
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 2fr 3fr 3fr 1fr 2fr;
+        column-gap: 150px;
+    }
+    .header{
+        grid-area: 1/1/1/2;
+    }
+    .theImages1{
+        grid-area: 2/1/2/2;
+        display: flex;
+        justify-content: center;
+        height: 160px;
+       
+    }
+    img{
+        display: block;
+        margin: 0px;
+        height: 100%
+    }
+    .theImages2{
+        grid-area: 3/1/3/2;
+        display: flex;
+        justify-content: center;
+        height: 160px;
+    }
+    .theButton{
+        grid-area: 4/1/4/2;
+        display: flex;
+        justify-self: center;
+        padding: 10px;
+
+    }
+    .footer{
+        grid-area: 5/1/5/2;
+    }
+    .header{
+        display: flex;
+        justify-content: center;
+        color: green;
+        font-size: 1em;
+        font-family: myFirstFont;
+    }
+    button{
+        height: 40px;
+    }
+}
